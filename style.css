@@ -1,3 +1,5 @@
+/* 33bdea */
+
 html, body {
     width: 100%;
     margin: 0;
@@ -6,15 +8,34 @@ html, body {
 }
 
 body {
-    background-color: #33bdea;
+    background-color: #f1f6fa;
+    /* background-color: #FCEADE; */
     font-family: 'Ubuntu', sans-serif;
-    color: white;
+    color: #616161;
     padding-bottom: 10vh;
+}
+
+h1 {
+    color: #f1f6fa;
+}
+
+h3, h2 {
+    color: #33bdea;
+}
+
+.header {
+    margin: 5vh 10vw;
+    text-align: center;
 }
 
 .jumbotron {
     height: 80vh;
     background-image: url("./Selda_flamme.JPG");
+    background-color: #f1f6fa;
+    /* background-image: linear-gradient(
+        to bottom, transparent, #f1f6fa
+    ), url("./Selda_flamme.JPG");
+    background-repeat: no-repeat; */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -47,7 +68,7 @@ body {
 
 .info-container {
     display: flex;
-    margin: 0 5vw;
+    margin: 10vh 10vw;
     margin-top: 3vh;
 }
 
@@ -58,6 +79,8 @@ body {
 
 .mazemap {
     width: 40%;
+    border-radius: 20px;
+    border: none;
 }
 
 .break{
@@ -111,6 +134,12 @@ body {
     max-width: 80vw;
 }
 
+@media only screen and (min-width: 600px) {
+    .mobile {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     
     .lead {
@@ -155,5 +184,13 @@ body {
 
     #jumbo-text {
         display: none;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    h1{
+        color: #33bdea;
     }
 }
