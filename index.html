@@ -12,7 +12,24 @@
     </head>
 
     <body>
-        <div class="jumbotron">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="./ent3r_utenbakgrunn.png" width="" height="30" class="d-inline-block align-top" alt="ENT3R">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Elevkveld <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="opplegg.html">Opplegg</a>
+                    <a class="nav-item nav-link" href="http://ent3r.no">ENT3R.no</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="jumbotron j_forside">
             <img src="./ent3r_utenbakgrunn.png" id="logo">
             <div class="opacaty desktop">
                 <h1 class="display-2 desktop">Elevkveld med ENT3R Trondheim</h1>
@@ -24,15 +41,15 @@
         <div class="info-container">
             <div class="info-text"> 
                 <h3>Hva?</h3>
-                <p class="lead">Er du nyggerig på programmering?
-                    Hva er egentlig koding? Hvorfor er realfag viktig for å forstå IT? Er det sant at kunstig intellegens kan erstatte mennesker?
-                    Vi får besøk av Madelaine Loås og Brain NTNU. De skal fortelle oss om nettopp dette. <br/>
+                <p class="lead">Er du nysgjerrig  på programmering?
+                    Hva er egentlig koding? Hvorfor er realfag viktig for å forstå IT? Er det sant at kunstig intelligens kan erstatte mennesker?
+                    Vi får besøk av Madeleine Lorås og Brain NTNU. De skal fortelle oss om nettopp dette. <br/>
                     Elevkvelden avsluttes med pizza og brus, og som alt annet i ENT3R er det både gøy og helt gratis!
                 </p>
                 <h3>Når?</h3>
-                <p class="lead">3. Mars kl. 18:00 - 20:00</p>
+                <p class="lead">4. Mars kl. 18:00 - 20:00</p>
                 <h3>Hvor?</h3>
-                <p class="lead">Vi møter i auditorie R7 i Realfagsbygget på NTNU Gløshaugen. 
+                <p class="lead">Vi møter i auditoriet R7 i Realfagsbygget på NTNU Gløshaugen. 
                     Mentorene står på Realfagsbygget og hjelper deg med å finne frem. Se kart.
                 </p>
                 <!-- <iframe class="mazemap mobile" src="https://use.mazemap.com/#v=1&zlevel=-1&center=10.404623,63.415578&zoom=18&campusid=1&sharepoitype=poi&sharepoi=2035">
@@ -52,19 +69,19 @@
             <hr class="break">
         </div>
         <div class="speakers-container">
-            <div class="card" style="width: 25rem;">
+            <div class="card">
                 <img src="https://pbs.twimg.com/profile_images/1101489659618738177/t44FALYp_400x400.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Brain NTNU</h5>
                     <p class="card-text">
-                        Brain NTNU ønsker å vise studenter hvor kult kustelig inntellegens kan være!
-                        De arrangerer konkuranser og arrangementer der studenter kan se hva kunsteling intellegens kan brukes til! 
-                        Kan kunsteling inntellegens ta over for mennesker?
+                        Brain NTNU ønsker å vise studenter hvor kult kunstig intelligens kan være! 
+                        De arrangerer konkurranser og arrangementer der studenter kan se hva kunsteling intelligens kan brukes til! 
+                        Kan kunsteling intelligens ta over for mennesker?
                     </p>
-                    <a href="https://brainntnu.no/" class="btn btn-primary">Brain NTNU</a>
+                    <a href="https://brainntnu.no/" target="_blank" class="btn btn-primary">Brain NTNU</a>
                 </div>
               </div>
-              <div class="card" style="width: 25rem;">
+              <div class="card">
                 <img src="https://innsidawls.itea.ntnu.no/user-profile-service/rest/files/c19b6bf0-abd9-381b-8f80-5255f735f048" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Madelaine Lorås</h5>
@@ -73,7 +90,7 @@
                       Sammen med Excited ser hun om studentene blir bedre hvis de får mat når de øver, blir inspirert av 
                       kule arrangementer, eller om det beste er å la studentene jobbe på egenhånd.
                     </p>
-                  <a href="https://www.ntnu.edu/excited" class="btn btn-primary">Excited</a>
+                  <a href="https://www.ntnu.edu/excited" target="_blank" class="btn btn-primary">Excited</a>
                 </div>
               </div>
         </div>
@@ -82,15 +99,14 @@
             <h2 class="display-4 title">Jonis besøker Microsoft</h2>
             <hr class="break">
             <p class="video-description lead">En av de som har undersøk hvorfor man trenger programmering er Jonis fra NRK.
-                I videoen får du et lite innblik i hvorfor programmering er viktig!
+                I videoen får du et lite innblikk i hvorfor programmering er viktig!
             </p>
             <div class="video">
                 <iframe class="video-iframe"
                     src="https://www.youtube.com/embed/UxSOJVjO28o">
                 </iframe>
             </div>
-            <button href="https://velgriktig.no/filmer/fremtidsjobbene-sesong-4/"
-            type="button" class="btn btn-primary video-button">Se mer på Velgriktig.no</button>
+            <a href="https://velgriktig.no/filmer/fremtidsjobbene-sesong-4/" target="_blank" class="btn btn-primary video-button">Se mer på Velgriktig.no</a>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

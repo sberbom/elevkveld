@@ -30,18 +30,24 @@ h3, h2 {
 
 .jumbotron {
     height: 80vh;
-    background-image: url("./Selda_flamme.JPG");
     background-color: #f1f6fa;
-    /* background-image: linear-gradient(
-        to bottom, transparent, #f1f6fa
-    ), url("./Selda_flamme.JPG");
-    background-repeat: no-repeat; */
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     background-position: center;    
     background-repeat: no-repeat; 
     background-size: cover;
+    padding: 2vh 0 1vh 0 !important; 
+    margin-top: 56px;
+}
+
+.j_opplegg {
+    background-image: url("./rakett.JPG");
+    justify-content: flex-end;
+}
+
+.j_forside {
+    background-image: url("./Selda_flamme.JPG");
 }
 
 .video-container {
@@ -93,7 +99,8 @@ h3, h2 {
 }
 
 .card {
-    margin: 20px;
+    margin: 2vw;
+    width: 25rem;
 }
 
 .title {
@@ -104,7 +111,6 @@ h3, h2 {
 
 .center{
     text-align: center;
-    margin: 5vw;
 }
 
 .display-2 {
@@ -126,12 +132,24 @@ h3, h2 {
 }
 
 #logo {
-    position: absolute;
-    top: 5vh;
-    margin: auto;
-    left: 0;
-    right: 0;
+    margin: 0 auto;
     max-width: 80vw;
+}
+
+.info-opplegg-container {
+    margin: 2vh 10vw;
+}
+
+.btn-oppgave {
+    margin: 1vh 1vw;
+}
+
+.text2{
+    margin-top: 2vh;
+}
+
+.bilde {
+    width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
@@ -192,5 +210,9 @@ h3, h2 {
 
     h1{
         color: #33bdea;
+    }
+
+    .card{
+        width: 18rem
     }
 }
